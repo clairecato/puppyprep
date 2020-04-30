@@ -116,6 +116,10 @@ footer{
 
 @media screen and (min-width: 650px){
 
+body{
+  margin:2%;
+}
+
 #openbtn{
   display: none;
 }
@@ -126,6 +130,10 @@ footer{
 
 h1{
   font-size: 2rem;
+}
+
+h2{
+  padding: 10px;
 }
 
 .banner{
@@ -177,7 +185,7 @@ a.active{
 
 @media screen and (min-width: 800px){
   body{
-    margin: 1% 2%;
+    margin: 3%;
   }
 }
 
