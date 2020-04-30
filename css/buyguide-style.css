@@ -53,6 +53,14 @@ h3.itemname{
     padding: 0 3%;
     vertical-align: top;
   }
+  
+  li{
+    margin-top: 40px;
+  }
+
+  li:first-child{
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 800px){
