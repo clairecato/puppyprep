@@ -32,7 +32,7 @@ video{
 
 .prev, .next{
   position: absolute;
-  top: 140px;
+  top: 85px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
