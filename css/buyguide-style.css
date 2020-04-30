@@ -51,6 +51,7 @@ h3.itemname{
   .section1, .section2{
     display: table-cell;
     padding: 0 3%;
+    vertical-align: top;
   }
 }
 
