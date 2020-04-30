@@ -111,6 +111,11 @@ td.col3{
     margin: 0 auto;
   }
 
+  h2.tablename{
+    width: 100%;
+    text-align: center;
+  }
+
   td.col2{
     width: 55%;
   }
@@ -133,6 +138,11 @@ td.col3{
 
   tr:hover{
     opacity: 1;
+  }
+
+  p{
+    padding: 0 20px 0 20px;
+    margin: 10px;
   }
 }
 
