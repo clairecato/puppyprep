@@ -1,0 +1,173 @@
+*{
+  box-sizing: border-box;
+}
+
+.banner{
+  background-image: url("../images/grumpums-crop1.jpg");
+}
+
+aside{
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  border: dotted 2px #9bc1bc;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-style:italic;
+  font-variant: small-caps;
+  line-height: 2rem;
+  max-width: 400px;
+}
+
+em{
+  font-weight: bolder;
+}
+
+.table-container{
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 50px;
+}
+
+table{
+  border-spacing: 0px;
+  width: 100%;
+}
+
+th{
+  text-align: left;
+  background-color: #5ca4a9;
+  color: #ffffff;
+  font-size: 0.9rem;
+  border-bottom: black 2px solid;
+  padding: 15px;
+}
+
+th:first-child{
+  border-radius: 10px 0 0 0;
+}
+
+th:last-child{
+  border-radius: 0 10px 0 0;
+  text-align: center;
+}
+
+th, td{
+  margin: 0px;
+}
+
+td{
+  font-size:0.85rem;
+  padding: 7.5px;
+}
+
+td.gname, td.last{
+  border-bottom: solid 1px black;
+}
+
+td.gname{
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 550;
+}
+
+td.col1{
+  width: 25%;
+}
+
+td.col2{
+  width: 60%;
+}
+
+td.col3{
+  width: 15%;
+  text-align: center;
+}
+
+.g1, .g3, .g5{
+  background-color: rgba(244,241,187,0.4);
+}
+
+.g2, .g4, .g6{
+  background-color: rgba(175, 175, 175, 0.4);
+}
+
+.g1:nth-child(2n+1), .g3:nth-child(2n), .g5:nth-child(2n+1){
+  background-color: rgba(228, 221, 96, 0.4);
+}
+
+.g2:nth-child(2n+1), .g4:nth-child(2n), .g6:nth-child(2n+1){
+  background-color: rgba(92, 92, 92, 0.4);
+}
+
+.gname{
+  background-color: inherit;
+}
+
+@media screen and (min-width: 650px){
+  .table-container{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  td.col2{
+    width: 55%;
+  }
+
+  td.col3{
+    width: 20%;
+  }
+
+  th{
+    font-size: 1rem;
+  }
+
+  td{
+    font-size: 0.9rem;
+  }
+
+  tr:not(:first-child){
+    opacity: 0.8;
+  }
+
+  tr:hover{
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 800px){
+  th{
+    font-size: 1.1rem;
+  }
+
+  td{
+    font-size: 1rem;
+  }
+
+  p{
+    display: inline-block;
+    width: 60%;
+    padding: 0 20px 0 20px;
+    margin-top: 0px;
+  }
+
+  h2{
+    padding: 0 20px;
+  }
+
+  aside{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    float:right;
+    top: 30%;
+    right: 5%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  th{
+    font-size:1.2rem;
+  }
+}
