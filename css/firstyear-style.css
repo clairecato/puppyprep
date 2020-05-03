@@ -7,9 +7,16 @@
 }
 
 
-.intro{
-  padding: 0 3%;
-  font-size: 0.9rem;
+section.introtext{
+  padding: 0 5%;
+}
+
+h2.timelineh2{
+  padding: 0 5%;
+}
+
+em{
+  font-style:italic;
 }
 
 img{
@@ -32,7 +39,7 @@ video{
 
 .prev, .next{
   position: absolute;
-  top: 85px;
+  top: 140px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -165,29 +172,12 @@ video{
 
 @media screen and (min-width: 650px){
 
+  .slideshow-container{
+    margin-top: 40px;
+  }
+
   .description{
     font-size: 0.9rem;
-  }
-
-  .slideshow-container{
-    float:left;
-    width: 50%;
-  }
-
-  h2{
-    width: 45%;
-    margin-left: 55%;
-    text-align: center;
-    position: relative;
-    top: 3rem;
-  }
-
-  .intro{
-    width: 45%;
-    float: right;
-    position: relative;
-    top: 2rem;
-    font-size: 1rem;
   }
 
   .dot{
@@ -198,7 +188,7 @@ video{
   .timeline-container{
     width: 80%;
     clear: both;
-    top: 30px;
+    top: 20px;
   }
 
   .content{
@@ -255,6 +245,35 @@ video{
 }
 
 @media screen and (min-width: 1200px){
+  .slideshow-container{
+    float:right;
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  section.introtext{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    padding: 0 3% 20px 3%;
+  }
+
+  .introtext h2{
+    margin-top: 10px;
+    margin-left: 0;
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  section.timelinesection{
+    clear: both;
+  }
+
+  h2.timelineh2{
+    width: 100%;
+    text-align: center;
+  }
+
   .timeline-container{
     width:80%;
   }
