@@ -4,8 +4,9 @@
 
 .banner{
   background-color: #e6ebe0;
-  background: url("../images/homebanner.jpg") center repeat;
-  box-sizing: border-box;
+  background: url("../images/tile3.jpg");
+  background-size: contain;
+  opacity: 0.85;
   margin: 0;
   height: 15rem;
   margin-top: -1px;
